@@ -55,7 +55,7 @@ def delete s
 
 		if col(line, :traffic_split).to_f != 0
 			puts "\nskipping (traffic-splitted)", "#{line}\n\n"
-		elsif v.match(/builtin/)
+		elsif v.match(/(builtin|main)/)
 			puts "\nskipping (builtin)", "#{line}\n\n"
 		else
 			puts "deleting.. ", line
