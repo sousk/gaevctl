@@ -26,8 +26,8 @@ Note:
 __HERE__
 
 
-GET_LIST = "gcloud preview app versions list"
-DELETE_VERSION = "gcloud preview app versions delete \"%s\" -q" # delete without confirmation
+GET_LIST = "gcloud app versions list"
+DELETE_VERSION = "gcloud app versions delete \"%s\" -q" # delete without confirmation
 
 CACHE_LIFETIME = 3 * 60 # sec
 
